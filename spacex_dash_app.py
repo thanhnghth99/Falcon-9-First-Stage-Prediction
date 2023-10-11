@@ -1,9 +1,9 @@
 # Import required libraries
 import pandas as pd
 import dash
-import dash_html_components as html
-import dash_core_components as dcc
 from dash.dependencies import Input, Output
+from dash import html
+from dash import dcc
 import plotly.express as px
 
 # Read the airline data into pandas dataframe
